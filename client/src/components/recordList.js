@@ -41,8 +41,6 @@ export default function RecordList() {
 
         getRecords();
 
-        console.log(records);
-
         return;
     }, [records.length]);
 
