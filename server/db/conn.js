@@ -8,7 +8,7 @@ var _db;
 module.exports = {
     connectToServer: (callback) => {
         client.connect()
-        .then((db)=> {
+        .then((db) => {
             _db = db.db("employees");
             console.log("DB connection successful.");
             console.log("Successfully connected to MongoDB");
